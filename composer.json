@@ -1,0 +1,17 @@
+{
+    "name": "esoftdream/waone",
+    "license": "proprietary",
+    "type": "esoftdream-plugin",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Esoftdream\\WaOne\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
